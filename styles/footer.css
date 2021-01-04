@@ -1,0 +1,74 @@
+footer{
+    background-color: var(--Dark-Blue);
+    height: 490px;
+}
+
+footer .footer-content{
+    padding: 0 60px;
+}
+
+.footer-content .logomarca, .social-networks, .contacts, button{
+    text-align: center;
+}
+
+.footer-content .logomarca img.logo{
+    margin: 32px 0;
+}
+
+.social-networks{
+    margin-bottom: 26px;
+
+    display: flex;
+    justify-content: center;
+}
+
+.social-networks a{
+    height: 24px;
+    width: 32px;
+    margin: 0 4px;
+    display: block;
+}
+
+.social-networks a img{
+    width: 24px;
+    height: 24px;
+}
+
+.social-networks a img:hover{
+    filter: grayscale(50%);
+}
+
+.contacts{
+    display: flex;
+    flex-direction: column;
+}
+
+.contacts .contacts-content{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contacts a{
+    margin: 6px 0;
+}
+
+.contacts a span{
+    color: var(--Very-Light-Gray);
+    transition: 150ms;
+}
+
+.contacts a span:hover{
+    color: var(--Lime-Green);
+}
+
+footer .footer-content .button{
+    margin-top: 30px;
+}
+
+.footer-content p{
+    margin: 24px 0;
+    font-size: 17px;
+    color: var(--Grayish-Blue);
+    text-align: center;
+}

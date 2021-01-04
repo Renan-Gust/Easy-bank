@@ -1,0 +1,136 @@
+.container .intro-images{
+    position: relative;
+    width: 100%;
+    height: 460px;
+}
+
+.intro-images img{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.intro-images{
+    background-image: url(/images/bg-intro-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.intro-images img{
+    bottom: 134px;
+}
+
+.container .digital-bank, .easybank, .details{
+    padding: 0 30px;
+    text-align: center; 
+}
+
+.digital-bank h1, .easybank h1, .details h2, .latest-articles h2{
+    font-weight: 500;
+    text-align: center;
+    color: var(--Dark-Blue);
+}
+
+.digital-bank p, .easybank p, .details p{
+    margin-top: 20px;
+    color: var(--Grayish-Blue);
+    line-height: 27px;
+}
+
+.digital-bank .button, .footer-content .button{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.button button{
+    padding: 12px 30px;
+
+    border: none;
+    border-radius: 20px;
+
+    cursor: pointer;
+    transition: 200ms;
+
+    background: linear-gradient(-90deg, var(--Bright-Cyan, 0%), var(--Lime-Green, 100%));
+    color: var(--White);
+    font-weight: 700;
+}
+
+.button button:hover{
+    opacity: 0.5;
+}
+
+.container:nth-of-type(2){
+    margin-top: 80px;
+    height: 1570px;
+    background-color: var(--Light-Grayish-Blue);
+}
+
+.container .easybank h1{
+    padding-top: 50px;
+}
+
+.container .details{   
+    margin-top: 60px;
+}
+
+.container .details h2{   
+    padding-top: 20px;
+}
+
+.container:nth-of-type(3){
+    background-color: var(--Very-Light-Gray);
+}
+
+.container .latest-articles{
+    padding: 80px 30px 0 30px;
+    height: 2150px;
+}
+
+.latest-articles .content{
+    background-color: var(--White);
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+
+    margin-top: 28px;
+    height: 460px;
+}
+
+.content img{
+    width: 100%;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+.content .informations{
+    padding: 0 21px;
+}
+
+.content .informations span{
+    margin-top: 28px;
+    
+    display: block;
+    color: var(--Grayish-Blue);
+    font-size: 12px;
+}
+
+.content .informations h3{
+    font-weight: 500;
+    font-size: 18px;
+    color: var(--Dark-Blue);
+
+    cursor: pointer;
+    transition: 150ms;
+
+    margin: 18px 0;
+}
+
+.content .informations h3:hover{
+    color: var(--Lime-Green);
+}
+
+.content .informations p{
+    color: var(--Grayish-Blue);
+    font-size: 16px;
+    line-height: 22px;
+}
