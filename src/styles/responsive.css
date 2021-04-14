@@ -177,7 +177,7 @@
     }
 
     .wrapper-bank .intro-images{
-        background-image: url(/public/images/bg-intro-desktop.svg);
+        background-image: url(/src/images/bg-intro-desktop.svg);
         background-position-x: 110px;
     }
 
